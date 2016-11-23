@@ -14,7 +14,7 @@ namespace ConsoleApplication25
             nowa.WczytajKlawisz();
             nowa.WykonajDzialanie();
 
-            Console.ReadKey();
+            
         }
     }
 }

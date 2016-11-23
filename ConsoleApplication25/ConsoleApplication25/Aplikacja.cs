@@ -28,22 +28,26 @@ namespace ConsoleApplication25
 
         public void WykonajDzialanie()
         {
-
-            switch (klawisz)
+            while (klawisz != 'E')
             {
-                case 'P': Produkt.DodajProdukt(); break;
-                case 'K': break;
-                case 'Z': break;
-                case 'S': break;
-                case 'X': break;
-                case 'W': break;
-                case 'N': break;
-                case 'E': Environment.Exit(0); break;
-                default: Console.Clear(); WczytajKlawisz(); break;
-                    }
-           
+                switch (klawisz)
+                {
+                    case 'P': Produkt.DodajProdukt(); break;
+                    case 'K': break;
+                    case 'Z': break;
+                    case 'S': break;
+                    case 'X': break;
+                    case 'W': break;
+                    case 'N': break;
+                    case 'E': Environment.Exit(0); break;
+                    default: Console.Clear(); WczytajKlawisz(); break;
+                }
+            }
+          }
         }
+           
+        
     }
 
   
-}
+

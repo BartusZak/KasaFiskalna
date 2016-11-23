@@ -40,8 +40,8 @@ namespace ConsoleApplication25
             Console.WriteLine("Ilość:");
             int ilosc_v = int.Parse(Console.ReadLine());
 
-            Koszyk.WyswietlKoszyk();
-           // Produkt prod = new Produkt(nazwa_v,cenaJednostkowa_v,ilosc_v);
+            
+            Produkt prod = new Produkt(nazwa_v,cenaJednostkowa_v,ilosc_v);
             
 
         }
